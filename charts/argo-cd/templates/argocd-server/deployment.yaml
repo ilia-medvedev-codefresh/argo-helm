@@ -23,6 +23,7 @@ spec:
         {{- end }}
       labels:
         codefresh-component: argocd
+        test: 2
         {{- include "argo-cd.labels" (dict "context" . "component" .Values.server.name "name" .Values.server.name) | nindent 8 }}
         {{- with (mergeOverwrite (deepCopy .Values.global.podLabels) .Values.server.podLabels) }}
           {{- toYaml . | nindent 8 }}
