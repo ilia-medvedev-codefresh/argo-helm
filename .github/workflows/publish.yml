@@ -3,7 +3,7 @@ name: Chart Publish
 on:
   push:
     branches:
-      - main
+      - argocd
 
 permissions:
   contents: read
