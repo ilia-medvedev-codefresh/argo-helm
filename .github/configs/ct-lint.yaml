@@ -12,4 +12,5 @@ validate-chart-schema: false
 validate-maintainers: true
 validate-yaml: true
 exclude-deprecated: true
+check-version-increment: false
 excluded-charts: []
