@@ -3,10 +3,10 @@
 # Only Used for the CT Lint Stage
 remote: origin
 #target-branch: main
-chart-dirs:
-  - charts
+#chart-dirs:
+#  - charts
 charts:
-- argo-cd
+- charts/argo-cd
 chart-repos:
   - dandydeveloper=https://dandydeveloper.github.io/charts/
 helm-extra-args: "--timeout 600s"  
