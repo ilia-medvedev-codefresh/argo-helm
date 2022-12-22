@@ -2,7 +2,7 @@
 # Don't add the 'debug' attribute, otherwise the workflow won't work anymore
 # Only Used for the CT Install Stage
 remote: origin
-target-branch: main
+#target-branch: main
 chart-dirs:
   - charts
 chart-repos:
@@ -12,4 +12,5 @@ validate-chart-schema: false
 validate-maintainers: true
 validate-yaml: true
 exclude-deprecated: true
+check-version-increment: false
 excluded-charts: []
