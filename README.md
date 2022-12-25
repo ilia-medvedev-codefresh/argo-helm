@@ -7,5 +7,5 @@ This is a Codefresh fork of Argo Helm.
 Argo Helm is a collection of **community maintained** charts for [https://argoproj.github.io](https://argoproj.github.io) projects. The charts can be added using following command:
 
 ```
-helm repo add argo https://codefresh-io.github.io/argo-helm
+helm repo add codefresh-argo https://codefresh-io.github.io/argo-helm
 ```
