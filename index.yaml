@@ -2972,6 +2972,38 @@ entries:
         - "[Deprecated]: Argo RBAC configuration via server.rbacConfig"
     apiVersion: v2
     appVersion: v2.4.15
+    created: "2022-12-26T06:51:31.105136887Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: fb98ca6fc9fde87b0b6a55abcb084fdf4ad582fdbfa43adb771f92f328219c03
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - https://github.com/ilia-medvedev-codefresh/argo-helm/releases/download/argo-cd-5.7.0-cr123451/argo-cd-5.7.0-cr123451.tgz
+    version: 5.7.0-cr123451
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Added]: Configuration sections configs.cm and configs.rbac"
+        - "[Deprecated]: Generic configuration via server.config"
+        - "[Deprecated]: Argo RBAC configuration via server.rbacConfig"
+    apiVersion: v2
+    appVersion: v2.4.15
     created: "2022-12-22T10:47:36.131852343Z"
     dependencies:
     - condition: redis-ha.enabled
@@ -19368,4 +19400,4 @@ entries:
     urls:
     - argocd-notifications-1.0.0.tgz
     version: 1.0.0
-generated: "2022-12-22T10:47:36.13955785Z"
+generated: "2022-12-26T06:51:31.107039871Z"
